@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 1200px;
+}
+
+.sfondo {
+    margin-top: 30px;
+    padding: 100px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.sfondopulsanti {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.sfondo h1 {
+    color: #00DC00;
+}
+
+.pulsanti {
+    background-color: #00DC00;
+    text-align: center;
+    padding: 10px;
+}
+
+.pulsanti button {
+    padding: 0 5px;
+}
+
+.container {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2,
+h3,
+p {
+    color: white;
+    padding-bottom: 3px;
+}
+
+
+.barra {
+    text-align: right;
+    padding: 15px 0;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.arancione {
+    width: 30%;
+    background-color: #F4B554;
+}
+
+.verde {
+    width: 60%;
+    background-color: #1EC31E;
+}
+
+.rossa {
+    width: 20%;
+    background-color: #BE4140;
+}
